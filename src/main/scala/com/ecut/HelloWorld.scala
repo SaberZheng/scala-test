@@ -7,6 +7,6 @@ package com.ecut
 object HelloWorld {
 
   def sayHello(s:String): String ={
-    return s;
+    "Hello "+s
   }
 }

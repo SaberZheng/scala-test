@@ -8,6 +8,6 @@ import org.scalatest.funsuite.AnyFunSuite
   */
 class HelloWorldTest extends AnyFunSuite{
   test("HelloWorld.sayHello") {
-    assert(HelloWorld.sayHello("Hello Scala" ) === "Hello Scala")
+    assert(HelloWorld.sayHello("Scala" ) === "Hello Scala")
   }
 }
