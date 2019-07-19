@@ -7,8 +7,8 @@ package com.ecut
 object HelloWorldTest {
 
   def main(args: Array[String]): Unit = {
-    var s: String = "Hello World !";
-    println(s);
+    var s: String = "Hello World !"
+    println(s)
   }
 
 }
