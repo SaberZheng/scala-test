@@ -6,7 +6,14 @@ package com.ecut
   */
 object HelloWorld {
 
-  def sayHello(s:String): String ={
-    "Hello "+s
+  def sayHello(s: String): String = {
+    "Hello " + s
+  }
+
+  //def关键字定义方法
+  def add(a: Int, b: Int): Int ={
+    //匿名函数
+    val add = (x: Int, y: Int) => x + y
+    add(a,b)
   }
 }
